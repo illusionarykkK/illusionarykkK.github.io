@@ -1,0 +1,177 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>吴凯的个人主页</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 36px;
+            color: #333333;
+        }
+        .header p {
+            font-size: 18px;
+            color: #666666;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .content .left {
+            width: 30%;
+            background-color: #e6e6e6;
+            padding: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        .content .left h2 {
+            font-size: 24px;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        .content .left ul {
+            list-style: none;
+            padding: 0;
+        }
+        .content .left li {
+            font-size: 16px;
+            color: #666666;
+            margin: 5px 0;
+        }
+        .content .right {
+            width: 65%;
+            background-color: #e6e6e6;
+            padding: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        .content .right h2 {
+            font-size: 24px;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        .content .right p {
+            font-size: 16px;
+            color: #666666;
+            margin: 5px 0;
+            text-indent: 2em;
+        }
+        .footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer p {
+            font-size: 14px;
+            color: #999999;
+        }
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background-color: rgba(240, 240, 240, 0.8);
+            filter: blur(5px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .nav ul li a {
+            font-size: 18px;
+            color: #333333;
+            text-decoration: none;
+        }
+        .nav ul li a:hover {
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>吴凯的个人主页</h1>
+            <p>欢迎来到我的个人主页，这里有我的简历和项目经历，希望您能了解我更多。</p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#info">个人信息</a></li>
+                <li><a href="#skill">掌握技能</a></li>
+                <li><a href="#project1">项目一</a></li>
+                <li><a href="#project2">项目二</a></li>
+                <li><a href="#project3">项目三</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left" id="info">
+                <h2>个人信息</h2>
+                <ul>
+                    <li>姓名：吴凯</li>
+                    <li>性别：男</li>
+                    <li>年龄：21岁</li>
+                    <li>邮箱：warrior7620@163.com</li>
+                    <li>电话：13389099395</li>
+                    <li>爱好：玩游戏、音乐</li>
+                </ul>
+            </div>
+            <div class="right" id="skill">
+                <h2>技能和项目</h2>
+                <p>掌握计算机科学基础：数据结构、计算机组成原理、操作系统、计算机网络</p>
+                <p>精通Python，C/C++，SQL语言</p>
+                <p>精通Matlab，Mysql，Pycharm，VS/VC，keil5，Proteus工具</p>
+                <p>擅长Linux操作系统</p>
+                <p>擅长51单片机、树莓派等</p>
+            </div>
+            <div class="right" id="project1">
+                <h2>参加项目：基于51单片机的智能家庭报警系统|三等奖</h2>
+                <ul>
+                    <li>该项目在未来技术杯比赛中荣获三等奖</li>
+                    <li>作为项目的负责人，带领团队开发项目，做项目的总体规划，论文撰写，团队分工等工作</li>
+                    <li>使用51单片机实现智能家庭报警系统，该系统可实现基于人脸识别的陌生人报警，防火灾报警系统，有毒气体监测等功能。</li>
+                    <li>该项目基于51单片机实现，采用C语言编程，采用多种智能传感器进行家庭监测，利用Keil5、Proteus软件进行编程和电路设计；</li>
+                </ul>
+            </div>
+            <div class="right" id="project2">
+                <h2>基于4层全连接神经网络的MNIST识别实验</h2>
+                <ul>
+                    <li>基于Python语言，编写正向和反向传播层，构建SGD和Adam等优化算法</li>
+                    <li>在MNIST数据集上训练四层神经网络</li>
+                    <li>通过在代码中构建数据集、载入数据集、初始化权重求解器、设置损失函数、自动反向传播、更新权重求解器、梯度归零、循环训练、模型存储等步骤，即可实现网络的训练；</li>
+                </ul>
+            </div>
+            <div class="right" id="project3">
+                <h2>美国大学生数学建模大赛|S奖</h2>
+                <p>项目名称：Topsis熵权法的光污染度量</p>
+                <ul>
+                    <li>荣获大赛S奖</li>
+                    <li>负责算法设计、模型设计、数据分析、论文编写等工作，为该项目的完成提供了重要的贡献</li>
+                    <li>使用Matlab进行数学模型建立，使用Topsis熵权法进行数学分析；</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2023 吴凯. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
